@@ -45,5 +45,7 @@ q = int(input())
 
 makeKey(p,q)
 
-print("[*] encrypt 3 : "+str(encrypt(3)))
-print("[*] decrypt 12 :"+str(decrypt(12)))
+x = encrypt(3)
+a = decrypt(x)
+print("[*] encrypt 3 : "+str(x))
+print("[*] decrypt "+str(x)+" : "+str(a))
