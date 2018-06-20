@@ -44,8 +44,9 @@ p = int(input())
 q = int(input())
 
 makeKey(p,q)
-
-x = encrypt(3)
+print("[*] input m")
+m = int(input())
+x = encrypt(m)
 a = decrypt(x)
-print("[*] encrypt 3 : "+str(x))
+print("[*] encrypt " + str(m) + " : "+str(x))
 print("[*] decrypt "+str(x)+" : "+str(a))
